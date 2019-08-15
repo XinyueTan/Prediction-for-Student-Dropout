@@ -5,10 +5,11 @@ In this project, I will be working towards buildimg different models (e.g.:  CAR
 
 ## Packages Required
 ```
+install.packages("tidyr")
+install.packages("dplyr")
+install.packages("psych")
 install.packages("caret")
-install.packages("party") 
 install.packages("C50")
-install.packages("gclus")
 ```
 
 ## Procedures
@@ -19,6 +20,9 @@ install.packages("gclus")
 5. Predict results from the test data and describe import attributes of this test, and determine if the predictive model of student performance is successful
 6. Repeat step 4 and 5 using C4.5 and C5.0 respectively
 7. Compare all three models at once with caret
+
+## Visualization
+<img src="https://user-images.githubusercontent.com/46146748/63124124-8d5a5900-bf78-11e9-9f63-9c5da08d2dda.png" width="600">
 
 ## Background
 Prediction of student behavior has been a prominant area of research in learning analytics and a major concern for higher education institutions and ed tech companies alike. It is the bedrock of [methodology within the world of cognitive tutors](https://solaresearch.org/hla-17/hla17-chapter5/) and these methods have been exported to other areas within the education technology landscape. 
