@@ -13,7 +13,7 @@ install.packages("C50")
 ```
 
 ## Procedures
-1. Upload drop_out.csv file as a data frame
+1. Load drop_out.csv file as a data frame
 2. Seperate the dataset into a training set and a test set by randomly selecting 25% of the students to be the test dataset and leaving the remaining 75% for the training set
 3. Visualize the relationships between variable "Complete" and other variables
 4. Construct a classification tree that predicts complete using the caret package
